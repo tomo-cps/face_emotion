@@ -1,0 +1,6 @@
+opencv==3.4.2
+Pillow==9.0.1
+numpy==1.21.5  
+keras==2.3.1  
+tensorflow==2.0.0
+

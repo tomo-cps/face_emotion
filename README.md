@@ -1,4 +1,4 @@
-#Facial Expression Estimation with OpenCV
+# Facial Expression Estimation with OpenCV
 
 ## Introduction
 This repository is a real-time facial expression estimation using OpenCV.
