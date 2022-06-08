@@ -10,14 +10,14 @@ classes = ({0:'angry',1:'disgust',2:'fear',3:'happy',
         4:'sad',5:'surprise',6:'neutral'})
 
 #train face
-face_cascade_file = '/Users/okawatomoaki/Documents/face_predict/haarcascade_frontalface_default.xml'  
+face_cascade_file = './haarcascade_frontalface_default.xml'  
 front_face_detector = cv2.CascadeClassifier(face_cascade_file)  
 
 #camera
 cap = cv2.VideoCapture(0)
 
 #train facial expression
-model_path = '/Users/okawatomoaki/Documents/face_predict/trained_models/fer2013_mini_XCEPTION.110-0.65.hdf5'
+model_path = './trained_models/fer2013_mini_XCEPTION.110-0.65.hdf5'
 emotions_XCEPTION = load_model(model_path, compile=False)
 
 minW = 0.1*cap.get(cv2.CAP_PROP_FRAME_WIDTH)  
