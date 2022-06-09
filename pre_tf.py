@@ -5,7 +5,7 @@ from keras.preprocessing import image
 from keras.preprocessing.image import load_imgclasses = ({0:'angry',1:'disgust',2:'fear',3:'happy',
         4:'sad',5:'surprise',6:'neutral'})
 
-image_path = '/Users/okawatomoaki/Documents/face_predict/images/happy.jpg'
+image_path = './images/happy.jpg'
 #image_path = '.images/sad.jpg'
 
 #img = image.load_img(image_path, grayscale=False , target_size=(64, 64))
