@@ -16,7 +16,7 @@ $ conda activate face_predict
 $ git clone https://github.com/tomo-cps/face_predict.git
 ```
 ```
-$ pip install -r  requirements.txt
+$ pip install -r requirements.txt
 ```
 
 Use this .xml file "haarcascade_frontalface_default.xml" for face detection in predict2.py
