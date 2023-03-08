@@ -24,5 +24,5 @@ Use this .xml file "haarcascade_frontalface_default.xml" for face detection in p
 ## Facial Expression Estimation with OpenCV
 The following command would perform a real-time facial expression estimation based on the expression made.
 ```                                                   
-$ python predict2.py
+$ python predict.py
 ```
